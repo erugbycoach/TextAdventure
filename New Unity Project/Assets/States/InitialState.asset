@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f49b1e99d3d1495d85424207496bc77, type: 3}
+  m_Name: InitialState
+  m_EditorClassIdentifier: 
+  storyText: 'You enter the room to find your best friend Beth crying.  When you ask
+    her what''s wrong, she says.
+
+
+    "Someone is bullying me.  Can you please Help?"
+
+
+    1. Help Your Friend Beth
+
+    2. Ignore her and go home.'
+  nextState:
+  - {fileID: 11400000, guid: 5feda10518a324b8f80a2603a0c5d0f8, type: 2}
+  - {fileID: 11400000, guid: 4e917308720844b34bdb04c3c15436da, type: 2}
+  - {fileID: 11400000, guid: d97e67e443a7644a78cb315b80c76654, type: 2}

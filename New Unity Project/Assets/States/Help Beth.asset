@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f49b1e99d3d1495d85424207496bc77, type: 3}
+  m_Name: Help Beth
+  m_EditorClassIdentifier: 
+  storyText: "Of course you will help your friend.  That is what good people do.  \n\nHow
+    do you want to help\n\n1. Tell the teacher\n2. GO find the jerk."
+  nextState:
+  - {fileID: 11400000, guid: b083527b15f1d42a9a4098458256cd56, type: 2}
